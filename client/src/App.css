@@ -16,3 +16,71 @@ hr{
     padding-top: 5px;
     opacity: 0.6
 }
+.progress_line{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+}
+.progress_line::before{
+    position: absolute;
+    content: '';
+    width: 13px;
+    height: 13px;
+    background-color: #fff;
+    border-radius:  50%;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.song-detail {
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
+}
+.controls{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-top: 35px;
+}
+.controls button {
+    font-size: 1.3rem;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+   
+}
+
+.control-btn{
+    padding: 15px 15px;;
+    border: 1px solid white;
+    padding: 10px 20px;
+    display: flex;
+    gap:60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+}
+.play{
+    position: absolute; 
+    width: 40px;
+    height:40px;
+    background-color: rgb(38, 136, 136);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    transition-duration: 500ms;
+    align-items: center;
+    
+}
+
+.play:hover{
+    background-color: rgb(34, 255, 255);
+}
