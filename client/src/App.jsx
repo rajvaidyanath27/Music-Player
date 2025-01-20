@@ -2,6 +2,7 @@ import './index.css';
 import './app.css';  
 import Musicelement from './components/Musicelement';
 import './components//Style.css'
+import Musiclist from './components/Musiclist';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
        <hr />
 
        <Musicelement />
+       <hr />
+       <Musiclist />
     </div>
     </>
   )

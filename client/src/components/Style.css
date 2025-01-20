@@ -1,4 +1,4 @@
-.musicelement{
+  .musicelement{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -40,4 +40,48 @@
     background-color:rgb(212, 31, 31);
     position: absolute;  
     left:0;
+}
+
+.musiclist{
+    width: 100%;
+    margin-top: 20px;
+    height: 100px;
+    max-height: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.ul_music{
+    list-style: none;
+    position:relative;
+    width: 100;
+    
+}
+
+.ul_music li{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    transition-duration: 200ms;
+    position:relative;
+    padding: 6px;
+    
+}
+.ul_music li:hover{
+    background-color: rgb(30, 249, 249);
+    cursor:pointer;
+}
+.song_name_list{
+    display: flex;
+    align-items: center;
+    
+}
+
+.ul_music li img{
+    width: 50px;
+    padding-right: 5px;
+}
+
+::-webkit-scrollbar{
+    width: 0;
 }
