@@ -85,3 +85,6 @@
 ::-webkit-scrollbar{
     width: 0;
 }
+.hoverd{
+    border: 4px  green;
+}
